@@ -4,7 +4,7 @@
 }
 
 
-.container {
+.container-p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr ;
   grid-template-rows: 250px 80px 850px 80px;
@@ -35,7 +35,7 @@
 
 
 /*NAV*/
-.nav {
+.nav-p {
   grid-area: nav;
   width: auto;
   padding: 15px;
@@ -72,7 +72,7 @@
 
 
 
-.main {
+.main{
   grid-area: main;
   padding: 20px;
 
@@ -110,6 +110,8 @@
   transition: .3s;
   transform: scale(1.1);
 }
+
+
 
 
 
@@ -278,7 +280,7 @@
 /*media queries*/
 
 @media (max-width: 780px) {
-  .container{
+  .container-p{
   grid-template-columns: 1fr 1fr 1fr 1fr ;
   grid-template-rows: 250px 80px auto 80px;
   }
@@ -291,7 +293,7 @@
 }
 
 @media (max-width:420px) {
- .container{
+ .container-p{
   grid-template-columns: 1fr 1fr 1fr 1fr ;
   grid-template-rows: 250px 300px AUTO 200px;
  }
