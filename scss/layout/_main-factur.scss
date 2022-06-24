@@ -1,0 +1,21 @@
+.section-facturacion form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: space-between;
+    row-gap: 10px;
+
+
+
+     input {
+        grid-column: 1 /3;
+
+
+         input:focus {
+            transform: translate(20px) scale(1.2);
+            transition: .3s;
+            outline-color: #89c8ca;
+
+        }
+    }
+}

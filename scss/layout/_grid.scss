@@ -1,0 +1,20 @@
+ 
+  .container-p {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 250px 80px 850px 80px;
+    justify-content: center;
+  
+  
+    grid-template-areas:
+      "header header header header"
+      "nav nav nav nav"
+      "main main main main"
+      "footer footer footer footer";
+  
+    background: aliceblue;
+    animation: pastel-cortar;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+  
+  }

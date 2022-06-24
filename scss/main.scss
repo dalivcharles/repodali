@@ -1,0 +1,91 @@
+//Principal
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+//layout - Grid//
+
+@import'./layout/grid';
+
+//header //
+@import'./layout/header';
+
+//NAVBAR//
+
+@import'./layout/navbar';
+
+
+/*-------MAIN-------*/
+/*-Index-*/
+
+
+.main {
+  grid-area: main;
+  padding: 20px;
+
+  .main-h1 {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.article {
+  height: 500px;
+  width: 450px;
+
+
+  .article img {
+    height: 400px;
+    width: 400px;
+    border: 5px solid #89c8ca;
+    border-radius: 10px;
+
+
+    .article img:hover {
+      transition: .3s;
+      transform: scale(1.1);
+    }
+  }
+}
+
+
+
+
+
+/*PASTELES*/
+@import './layout/main-pasteles';
+
+/*ENVIOS*/
+@import './layout/main-envios';
+
+/*EVENTOS*/
+@import './layout/main-eventos';
+
+/*FACTURACION*/
+@import './layout/main-factur';
+
+/*DEGUSTACION*/
+@import './layout/main-degus';
+
+/*Footer*/
+@import './layout/footer';
+
+/*Animaciones*/
+@import './utilities/animaciones';
+
+/*media queries*/
+@import './layout/media-queries';
