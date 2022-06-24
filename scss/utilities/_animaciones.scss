@@ -1,0 +1,48 @@
+@keyframes pastel-cortar {
+    0% {
+      background-color: white;
+  
+    }
+  
+    25% {
+      background-color: #CDF0EA;
+    }
+  
+    50% {
+      background-color: #F6C6EA;
+    }
+  
+    75% {
+      background-color: #F9F9F9;
+    }
+  
+    100% {
+      background-color: #FAF4B7;
+    }
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  /*media queries*/
+  
+  @media (max-width: 780px) {
+    .container-p{
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 250px 80px auto 80px;
+    }
+   
+    .section-pasteles {
+      grid-template-columns: repeat(2, minmax(200px, 300px));
+      grid-template-rows: auto auto ;
+    }
+  
+  }

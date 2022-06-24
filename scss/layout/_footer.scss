@@ -1,0 +1,34 @@
+.footer {
+    grid-area: footer;
+    padding: 15px;
+    background: #af799493;
+
+}
+
+.footer-ul {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+.footer-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+
+
+    .footer li {
+        margin: 5px;
+        padding: 5px;
+        background-color: #89c8ca;
+        border: 1px solid grey;
+        border-radius: 10px;
+
+
+        .footer a {
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.section-pasteles {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 300px));
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: flex-start;
+
+    row-gap: 10px;
+    column-gap: 10px;
+    text-align: center;
+
+
+    .card-pasteles img {
+        height: 300px;
+        width: 200px;
+        border: 2px solid #89c8ca;
+        border-radius: 10px;
+        box-shadow: 1px 2px 5px grey;
+
+
+        .card-pasteles img:hover {
+            transition: .3s;
+            transform: scale(1.1);
+        }
+    }
+}
