@@ -1,0 +1,25 @@
+$theme-color:#8EC5FC;
+$theme-gradient:linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+$theme-border:1px solid gray;
+$theme-border-color: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+$theme-box-shadow:2px 4px 10px 4px #d147bca1;
+$theme-button-width: 200px;
+
+@mixin theme( $theme-color, $theme-gradient,$theme-border,$theme-border-color,$theme-button-width){
+background-color: $theme-color;
+background-image: $theme-gradient;
+border:$theme-border;
+border-color: $theme-border-color;
+box-shadow: $theme-box-shadow;
+width: $theme-button-width; 
+text-align: center;
+
+}
+
+.nav-ul li {    
+@include theme( $theme-color, $theme-gradient,$theme-border,$theme-border-color,$theme-button-width)
+}
+
+.footer li {    
+@include theme( $theme-color, $theme-gradient,$theme-border,$theme-border-color,$theme-button-width)
+}

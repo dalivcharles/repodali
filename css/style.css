@@ -1,3 +1,21 @@
+.nav-ul li {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  border: 1px solid gray;
+  border-color: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  box-shadow: 2px 4px 10px 4px #d147bca1;
+  width: 200px;
+  text-align: center; }
+
+.footer li {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  border: 1px solid gray;
+  border-color: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  box-shadow: 2px 4px 10px 4px #d147bca1;
+  width: 200px;
+  text-align: center; }
+
 * {
   margin: 0;
   padding: 0; }
