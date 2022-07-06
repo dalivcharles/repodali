@@ -13,13 +13,4 @@ border-color: $theme-border-color;
 box-shadow: $theme-box-shadow;
 width: $theme-button-width; 
 text-align: center;
-
-}
-
-.nav-ul li {    
-@include theme( $theme-color, $theme-gradient,$theme-border,$theme-border-color,$theme-button-width)
-}
-
-.footer li {    
-@include theme( $theme-color, $theme-gradient,$theme-border,$theme-border-color,$theme-button-width)
 }
