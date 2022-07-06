@@ -4,6 +4,7 @@
     padding: 15px;
     background: #af799493;
 
+}
 
     .nav-ul {
         display: flex;
@@ -12,21 +13,20 @@
         align-items: stretch;
         list-style: none;
     }
-}
+
 
 .nav-ul li {
     margin: 5px;
     padding: 5px;
-    background-color: #89c8ca;
-    border: 1px solid grey;
+   text-decoration: none;
     border-radius: 10px;
+    @include theme( $theme-color, $theme-gradient,$theme-border,$theme-border-color,$theme-button-width);
 
-    .nav-ul li &:hover {
+    a {
+        text-decoration: none;
+    }
+    &:hover {
         transition: .3s;
         transform: scale(1.3);
-
-        .nav-ul a {
-            text-decoration: none;
-        }
     }
 }
